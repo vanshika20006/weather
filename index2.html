@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="weather-condition">Clouds</h1>
+            <p id="sun-times">Sunrise: -- | Sunset: --</p>
+        </header>
+        <main>
+            <div class="weather-info">
+                <div class="temperature">
+                    <h2>Temperature</h2>
+                    <p id="temperature">--°C</p>
+                    <p>Min Temperature: <span id="min-temperature">--°C</span></p>
+                    <p>Max Temperature: <span id="max-temperature">--°C</span></p>
+                </div>
+                <div class="humidity">
+                    <h2>Humidity</h2>
+                    <p id="humidity">--%</p>
+                    <p>Clouds: <span id="clouds">--%</span></p>
+                    <p>Visibility: <span id="visibility">-- m</span></p>
+                </div>
+                <div class="wind-speed">
+                    <h2>Wind Speed</h2>
+                    <p id="wind-speed">-- km/h</p>
+                    <p>Wind Deg: <span id="wind-deg">--°</span></p>
+                    <p>Atm Pressure: <span id="pressure">-- mb</span></p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Today's Weather-Inspired Recommendations for You!</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
